@@ -7,9 +7,46 @@
 
     <link rel="stylesheet" type="text/css" href="css/normalize.css"/>
     <link rel="stylesheet" type="text/css" href="css/style.css"/>
+
+    <!-- ICONS -->
+    <link href="//cdn.materialdesignicons.com/2.1.19/css/materialdesignicons.min.css" media="all" rel="stylesheet"
+          type="text/css"/>
 </head>
 <body>
-
+<header>
+    <h1>URL Shortener</h1>
+</header>
+<section>
+    <form id="form" autocomplete="off">
+        <label for="input">Enter URL</label>
+        <input type="text" id="input" value="">
+        <button id="shorten">Shorten</button>
+        <button id="expand">Expand</button>
+    </form>
+    <div id="response">
+    </div>
+    <button class="copyButton">Copy to clipboard</button>
+</section>
+<footer>
+    <div class="icons">
+        <a href="https://www.facebook.com/artur.sasdunajewski"
+           class="mdi mdi-facebook-box"
+           target="_blank"
+           rel="noopener noreferrer"
+        ></a>
+        <a href="https://www.linkedin.com/in/artur-sas-dunajewski/"
+           class="mdi mdi-linkedin-box"
+           target="_blank"
+           rel="noopener noreferrer"
+        ></a>
+        <a href="https://github.com/arko8919"
+           class="mdi mdi-github-box"
+           target="_blank"
+           rel="noopener noreferrer"
+        ></a>
+    </div>
+    <p>Artur S-D @2018</p>
+</footer>
 
 <script
         src="https://code.jquery.com/jquery-3.2.1.min.js"

@@ -13,7 +13,9 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "babel src -d js"
+    "build": "babel src -d js",
+    "watch-sass": "sass --watch css/sass/style.scss:css/style.css",
+    "watch-babel": "babel src --watch -d js"
   },
   "author": "Artur SD",
   "license": "ISC"

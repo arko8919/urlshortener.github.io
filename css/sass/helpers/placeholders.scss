@@ -1,0 +1,13 @@
+%centering {
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+%display-flex {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -o-flex;
+  display: -ms-flex;
+  display: flex;
+}

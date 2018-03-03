@@ -1,0 +1,23 @@
+footer {
+  min-height: 25vh;
+  background-color: $background-odd;
+  @extend %display-flex;
+  @include flex-flow(column nowrap);
+  @include align-items(center);
+  @include justify-content(center);
+
+  a {
+    font-size: 3em;
+    text-decoration: none;
+    color: $text-odd;
+    @include transition(color .5s);
+    &:hover {
+      color: $hover;
+    }
+  }
+
+  p {
+    font-size: 1em;
+    color: #fff;
+  }
+}

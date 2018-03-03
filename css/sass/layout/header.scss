@@ -1,0 +1,15 @@
+header {
+  @extend %display-flex;
+  @include flex-flow(column nowrap);
+  @include align-items(center);
+  @include justify-content(center);
+  background-color: $background-odd;
+  color: $text-odd;
+  min-height: 25vh;
+  padding: 0 .8em;
+
+  h1 {
+    font-size: 3em;
+    text-align: center;
+  }
+}
