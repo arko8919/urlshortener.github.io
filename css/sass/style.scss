@@ -1,10 +1,10 @@
-@import "./helpers/fonts";
-@import "./helpers/placeholders";
-@import "./helpers/mixins";
-@import "./helpers/variables";
-@import "./layout/header";
-@import "./layout/section";
-@import "./layout/footer";
+@import "helpers/fonts";
+@import "helpers/placeholders";
+@import "helpers/mixins";
+@import "helpers/variables";
+@import "layout/header";
+@import "layout/section";
+@import "layout/footer";
 
 * {
   box-sizing: border-box;
